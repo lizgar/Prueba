@@ -1,0 +1,198 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+    background-color: #3883d8;
+}
+
+nav {
+    top: 0;
+    
+    backdrop-filter: blur(30px);
+    position: fixed;
+    z-index:1;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  li {
+    aling-items: center;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    color: #fff;
+    list-style-type: none;
+    border-radius: 0.5rem;
+  }
+  nav a {
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    color: white;
+    text-decoration: none;
+    padding: 0 0 0 0.5em;
+  }
+  nav a i {
+    position: absolute;
+    left: 0.4em;
+    top: 0.25em;
+    list-style-type: none;
+  }
+  
+  nav a:hover {
+    background-color: lightgreen;
+    border-radius: 0.5rem;
+  }
+    #pinContainer {
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+    section{
+        font-size: 13px;     
+        text-align: center;
+        font-family: 'KoHo', sans-serif;
+    }
+    img {  
+        border: solid red;
+        
+        width:100%; 
+    }
+    h1{
+        font-size: calc(40.57143px + 1.84874vw);  
+        font-weight: 700;
+        padding: 0;
+        margin: 0;
+    }
+    h2{  
+        padding: 0;
+        font-size: calc(40.57143px + 1.84874vw);
+        font-weight: 600;
+        margin: 0;
+        color:#77b7ff;  
+        line-height: 0.5em;  
+    }
+	.panel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+		height: 100vh;
+		width: 100%;
+		position: absolute;
+        
+	}
+    .pan{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        right: 0;
+        width: 50%;
+        height: 100vh;
+        background-color: #d86538;
+        font-family: 'Padauk', sans-serif;
+    }
+    svg{
+        position: absolute;
+        right: 0;
+        bottom: 5em;
+    }
+    .info_texto{
+      
+        margin: 0 0 0 0 ;
+        padding: 0;
+    }
+    .info_texto i{
+        color: rgb(248, 210, 152);
+        font-size:calc(40.57143px + 1.84874vw) ;
+    }
+
+    .info_texto p{
+        margin: 0;
+        font-family: 'Bungee Shade', cursive;
+        font-weight: 900;
+        text-align: center;
+        font-size: calc(40.57143px + 1.84874vw);
+        color: rgb(248, 210, 152);
+        line-height: 1em;
+        /*letter-spacing: -.01em;*/
+    }
+    .redes{
+        font-weight: 100;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+      
+        justify-content: flex-start;
+        flex-direction: column;
+        position: absolute;
+        bottom: 8em;
+        
+    }
+    .redes .facebook{
+        
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    .redes .correo{
+     
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .redes  a{
+        font-size:calc(6px + 1.0vw); 
+        color: rgb(33, 48, 80);
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        padding: 0.1rem 0.5rem  0.1rem 0.5rem;
+        background-color: rgb(248, 210, 152);
+        box-shadow:         inset 0 0 3px #c05930;
+        transition: background-color .5s;
+        border-radius: 0.5em 0 0.5em 0;
+    }
+
+    .redes a:hover{
+        background-color: gold;
+    }
+    
+    .redes h5{ 
+        font-family: 'Roboto', sans-serif;
+        color:rgb(248, 210, 152); 
+        text-align: center;
+        position: absolute;
+        bottom: -7rem;
+        margin: 0 0 0 35%;
+    }
+    
+    .redes i{
+    
+        font-size: calc(9px + 1.84874vw);
+        color: rgb(248, 210, 152);
+        list-style-type: none;
+        align-items: center;
+        padding: 0.1em;
+    }
+
+    .turqoise {
+	background-color: #38ced7;
+}
+.blue {
+    
+    width: 50%;
+    background-color: #3883d8;
+}  
+.bordeaux {
+    background-color: #953543;
+}
+.green {
+    background-color: #22d659;
+}
